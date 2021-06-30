@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Sanchez:400italic,400");
+@import url("normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: block;
+}
+.header {
+  background: #3ab3df;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  width: 420px;
+  height: 50px;
+  float: left;
+  position: fixed;
+  z-index: 99;
+  clear: both;
+  text-align: right;
+  padding: 15px 20px 12px 0px;
+}
+.header span {
+  font-weight: normal;
+}
+.header p::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f095";
+  margin-right: 10px;
+}
+
+.header2 {
+  background-color: #556877;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  text-align: right;
+  padding: 10px 0px;
+  padding-right: 200px;
+}
+.header2 p::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  margin-right: 10px;
+}
+.header2 a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+.line {
+  display: inline-block;
+  margin-right: 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-right: 15px;
+  height: 30px;
+}
+
+nav {
+  position: fixed;
+  top: 50px;
+  background: white;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+nav img {
+  padding-left: 200px;
+  width: auto;
+  height: 40px;
+  margin-top: 30px;
+}
+
+nav ul {
+  position: fixed;
+  top: 85px;
+  right: 200px;
+  list-style: none;
+  float: right;
+  display: flex;
+  box-sizing: border-box;
+}
+nav ul li a {
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 15px;
+}
+
+nav ul li ul li a {
+  position: relative;
+  top: 30px;
+  display: block;
+  padding: 0px;
+  margin-right: 460px;
+  margin-top: 0px;
+  width: 80px;
+  height: 50px;
+  background: white;
+  visibility: hidden;
+}
+nav ul li:hover {
+  visibility: visible;
+}
+
+.bg {
+  background-image: url(img1/imagebg.jpg);
+  height: 500px;
+  z-index: -2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  padding-top: 350px;
+  padding-bottom: 50px;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  padding-left: 200px;
+}
+
+.bg:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #3ab3df, #3ab3df);
+  opacity: 0.6;
+}
+
+.one {
+  font-weight: light;
+  font-size: 23px;
+  width: 16px;
+}
+.two {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  width: 350px;
+}
+.three {
+  font-weight: light;
+  font-size: 15px;
+  line-height: 50px;
+}
+
+.blockone {
+  width: 520px;
+  height: 500px;
+  /* border: 1px solid black; */
+  float: left;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+.blocktwo {
+  width: 540px;
+  height: 500px;
+  /* border: 1px solid black; */
+  float: right;
+  margin-right: 210px;
+  margin-top: 70px;
+}
+
+.office {
+  font-size: 17px;
+  color: #3ab3df;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-family: "Poppins", sans-serif;
+}
+.git {
+  font-size: 35px;
+  font-weight: 600;
+  color: #35414b;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.git:after {
+  background-color: #3ab3df;
+  content: "";
+  display: block;
+  height: 5px;
+  margin: 10px 0px;
+  width: 80px;
+}
+.para {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #8c8c9e;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.t1 {
+  width: 100%;
+  padding: 0.375rem 0rem;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  border: none;
+  border-bottom: solid #ddd 1px;
+  margin: 20px 0px;
+  outline: none;
+}
+.t2 {
+  display: inline-block;
+  width: 49%;
+  padding: 0.375rem 0rem;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  border: none;
+  border-bottom: solid #ddd 1px;
+  margin: 35px 0px;
+  outline: none;
+}
+
+.blocks textarea {
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+  border-bottom: solid #ddd 1px;
+  margin-top: 15px;
+}
+.button1 {
+  box-sizing: border-box;
+  background: #3ab3df;
+  color: white;
+  font-size: 15px;
+  padding: 7px 25px;
+  border: none;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+.map1 {
+  width: 100%;
+  height: 100%;
+}
+
+.foot1 {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxone {
+  width: 340px;
+  height: 200px;
+  margin: 25px;
+  background-color: #f7fafa;
+  text-align: center;
+  padding: 1.5rem;
+}
+.boxone::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f095";
+  color: #3ab3df;
+  font-size: 35px;
+}
+.boxone .h3 {
+  font-size: 0.9rem;
+  color: #35414b;
+  font-weight: 600;
+}
+.boxone p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #8c8c9e;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 0px;
+}
+
+.boxtwo {
+  width: 340px;
+  height: 200px;
+  margin: 25px;
+  background-color: #f7fafa;
+  text-align: center;
+  padding: 1.5rem;
+}
+.boxtwo::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f041";
+  color: #3ab3df;
+  font-size: 35px;
+}
+.boxtwo .h3 {
+  font-size: 0.9rem;
+  color: #35414b;
+  font-weight: 600;
+}
+.boxtwo p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #8c8c9e;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 0px;
+}
+
+.boxthree {
+  width: 340px;
+  height: 200px;
+  margin: 25px;
+  background-color: #f7fafa;
+  text-align: center;
+  padding: 1.5rem;
+}
+.boxthree::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  color: #3ab3df;
+  font-size: 35px;
+}
+.boxthree .h3 {
+  font-size: 0.9rem;
+  color: #35414b;
+  font-weight: 600;
+}
+.boxthree p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #8c8c9e;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 0px;
+}
